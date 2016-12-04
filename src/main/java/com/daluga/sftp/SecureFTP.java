@@ -5,15 +5,15 @@ import com.jcraft.jsch.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-//import java.util.Properties;
 
 public class SecureFTP {
 
-    private static final String HOST = "XXX.XXX.XXX.XXX";
+    private static final String HOST = "HOST_HERE";
     private static final int PORT = 22;
-    private static final String USER = "user";
-    private static final String PASSWORD = "password";
-    private static final String KNOWN_HOSTS = "/location/of/known/host/file/.ssh/known_hosts";
+    private static final String USER = "USERNAME_HERE";
+    private static final String PASSWORD = "PASSWORD_HERE";
+
+    private static final String KNOWN_HOSTS = "LOCATION_OF_KNOWN_HOSTS_HERE";
 
     public static void main(String[] args) {
         System.out.println("Starting secure ftp session...");
